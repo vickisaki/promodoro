@@ -1,0 +1,41 @@
+input:focus {
+    box-shadow: none; /* Remover o efeito de sombra */
+    outline: none; /* Remover contorno, mas considerar acessibilidade */
+}
+
+input {
+    width: 150px;
+    height: 150px;
+    font-size: 50pt;
+    text-align: center;
+}
+
+#timer {
+    display: none; /* Certifique-se de que há um elemento correspondente no HTML */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: none;
+}
+
+.time {
+    color: #ffffff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 90pt;
+}
